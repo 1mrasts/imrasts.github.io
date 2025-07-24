@@ -8,6 +8,7 @@ let isStop = false
 let isMusicPlay = true
 audio.volume = 0.3
 audio.loop = true
+audio.play()
 console.log(audio.currentTime)
 
 stopSound.addEventListener('click', function () {
