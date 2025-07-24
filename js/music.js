@@ -52,5 +52,3 @@ function formatTime(seconds) {
 	const secsStr = secs < 10 ? '0' + secs : secs
 	return `${minsStr}:${secsStr}`
 }
-
-audio.play()
