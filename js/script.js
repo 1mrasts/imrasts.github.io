@@ -7,8 +7,9 @@ discordBtn.addEventListener('click', function () {
 
 	navigator.clipboard.writeText(text).then(function () {
 		hiddened.id = 'show'
+		let showed = document.querySelector('#show')
 		setTimeout(function () {
-			hiddened.id = 'hiddened'
+			showed.id = 'hiddened'
 		}, 2000)
 	})
 })
